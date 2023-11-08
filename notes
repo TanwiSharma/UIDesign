@@ -2,7 +2,7 @@
 UI development and learning
 
 create app
-npx create-react-app my-react-app
+npx create-react-app Shringar
 cd my-react-app
 npm start
 
@@ -13,3 +13,14 @@ modify part of package.json from:
 for Linux and MacOS to:
 
 "start": "PORT=3006 react-scripts start"
+
+
+#Git inital commit, add, and push command
+mkdir my_project
+cd my_project
+touch .gitignore
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin youruser@yourserver.com:/path/to/my_project.git
+git push origin master
