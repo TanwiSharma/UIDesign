@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestParent {
     @RequestMapping("/testparent")
     public String sayHello(){
-        return "HeyNewString";
+        return "HeyNewResponse";
     }
     
 }
